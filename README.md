@@ -1,6 +1,6 @@
-# Cookiecutter Kodexa Infer Model
+# Cookiecutter Kodexa Event Model
 
-Cookiecutter template for a simple infer model to use with Kodexa.
+Cookiecutter template for a simple event model to use with Kodexa.
 
 To learn more see [Kodexa Developer Portal](https://developer.kodexa.ai)
 
@@ -11,7 +11,7 @@ This tool will create Python project with the following features:
 * [Poetry](https://python-poetry.org/): Manage dependency, build and release
 * Kodexa Dependencies
 * Kodexa CLI
-* Metadata definition for a standard inference model
+* Metadata definition for a standard event model
 * Makefile with support for deploying the model
 
 ## Quickstart
@@ -25,5 +25,5 @@ pip install -U cookiecutter
 Generate a Python package project:
 
 ```
-cookiecutter https://github.com/kodexa-labs/cookie-cutter-kodexa-infer-model.git
+cookiecutter https://github.com/kodexa-labs/cookie-cutter-kodexa-event-model.git
 ```
